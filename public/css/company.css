@@ -1,0 +1,130 @@
+body{
+    background: rgb(0,36,29);
+    background: linear-gradient(90deg, rgba(0,36,29,1) 0%, rgba(9,121,74,1) 35%, rgba(0,212,255,0.8830882694874825) 100%);
+    
+}
+
+body{
+
+color: wheat;
+}.navbar{
+	background-color: black;
+	padding-top: 5px;
+	display: flex;
+	
+	position: sticky;
+    top: 0;
+	cursor: pointer;
+}
+#absb-navbar{
+    position: sticky;
+    top: 0;
+}
+h3#company-name{
+	font-family: "Audiowide", sans-serif;
+	color: black;
+	text-align: center;
+}
+
+.navbar {
+    padding: 0 0 .5rem
+}
+
+.navbar-brand, .nav-link {
+    font-family: ubuntu;
+    font-size: 2.5rem;
+    font-weight: 700;
+    position: relative
+}
+
+.nav-item {
+    padding: 0 18px
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: ubuntu;
+}
+
+
+.center {
+	justify-content: center;
+  }
+
+  .big-heading {
+    font-family: ubuntu;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.small-heading {
+    font-family: ubuntu;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1.5
+}
+h4{
+color: black;
+text-align: center;
+font-family: ubuntu;
+font-weight: 900;
+font-size: 3.5rem;
+line-height: 1.5;
+}
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea,[type=email] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit][type=reset] {
+  
+  
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+
+.container {
+  border-radius: 5px;
+
+  padding: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    #absb-navbar{
+        position: sticky;
+        top: 0;
+    }
+	.image-div{
+	padding-top: 3.5%;
+	}
+  }
+
+  .container-fluid {
+    padding: 7% 15%;
+}
+
+.titleimage {
+    position: static;
+    transform: rotate(0)
+}
+
+
+.colored-section {
+	background: rgb(0,36,29);
+background: linear-gradient(90deg, rgba(0,36,29,1) 0%, rgba(9,121,74,1) 35%, rgba(0,212,255,0.8830882694874825) 100%);
+}
